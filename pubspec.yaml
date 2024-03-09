@@ -1,0 +1,43 @@
+name: they_live
+description: Sustainable neurons project
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.15.0
+  flame_audio: ^2.1.8
+  logger: ^2.0.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/sfx/countdown-3.mp3
+    - assets/audio/sfx/correct_01.mp3
+    - assets/audio/sfx/wrong_01.mp3
+    - assets/audio/sfx/question.mp3
+    - assets/audio/sfx/failed.mp3
+    - assets/audio/sfx/nc214585.mp3
+    - assets/audio/sfx/rappa.mp3
+    - assets/audio/sfx/wadaiko.mp3
+    - assets/audio/bgm/csikos.mp3
+    
+  fonts:
+#  - family: ipag-mona
+#    fonts:
+#      - asset: assets/fonts/ipag-mona.ttf
+  - family: PixelMplus
+    fonts:
+    - asset: assets/fonts/PixelMplus12-Regular.ttf
+      weight: 300
